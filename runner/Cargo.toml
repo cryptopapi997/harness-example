@@ -1,0 +1,14 @@
+[package]
+name = "runner"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+mpc-execution-harness = { version = "0.4.0", registry = "arcium" }
+arcis = "*"
+log = "*"
+primitives = { package = "arcium-primitives", registry = "arcium", version = "*" }
+rand_chacha = "0.3.1"
+rustls = "*"
+tokio = "*"
+pretty_env_logger = "0.5.0"
